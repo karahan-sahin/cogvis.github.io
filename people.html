@@ -17,6 +17,30 @@
     .grad-rose   { background: #333333; }
     .grad-sky    { background: #141414; }
     .grad-slate  { background: #595959; }
+
+    /* PI avatar (xlg) */
+    .avatar-xlg {
+      width: 248px;
+      height: 248px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+      box-shadow: 0 4px 24px rgba(0,0,0,.18);
+      background: var(--gray-100);
+    }
+    .avatar-xlg img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Photo avatars: circular crop */
+    .avatar-md { overflow: hidden; width: 120px; height: 120px; }
+    .avatar-md img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -60,7 +84,7 @@
   <!-- ---- Principal Investigator ---- -->
   <div class="pi-wrap">
     <div class="pi-photo-wrap">
-      <div class="avatar-lg grad-navy">AM</div>
+      <div class="avatar-xlg"><img src="assets/profile/Bowden.webp" alt="Prof. Richard Bowden" /></div>
       <div class="pi-social">
         <a href="mailto:amorgan@cs.uvr.edu" class="icon-btn" title="Email">
           <i class="fa-solid fa-envelope"></i>
@@ -88,12 +112,11 @@
         Richard Bowden received a BSc in computer science from the University of London in ’93, an MSc with distinction from the University of Leeds in ’95, and a PhD in computer vision from Brunel University in ’99 for which he was awarded the Sullivan Doctoral Thesis Prize for the best UK thesis in computer vision. An award also won by three of his PhD students (Lebeda 2017, Mendez 2018 and Spencer-Martin2021). He is Professor of Computer Vision and Machine Learning at the University of Surrey, UK, where he leads the Cognitive Vision Group within the Centre for Vision Speech and Signal Processing. He is also co-founder and Chief Scientist of the company Signapse AI
       </p>
       <div class="interest-list">
-        <span class="interest-tag">Gloss-Free SL Translation</span>
-        <span class="interest-tag">Sign Language Production</span>
-        <span class="interest-tag">Sign Spotting</span>
-        <span class="interest-tag">LLMs for Sign Language</span>
         <span class="interest-tag">Computer Vision</span>
-        <span class="interest-tag">Robotics</span>
+        <span class="interest-tag">Machine Learning</span>
+        <span class="interest-tag">AI</span>
+        <span class="interest-tag">Sign Language</span>
+        <span class="interest-tag">Cognitive Vision</span>
       </div>
       <div class="pi-links">
         <a href="https://personalpages.surrey.ac.uk/r.bowden/" class="btn btn-primary btn-sm">
@@ -101,9 +124,6 @@
         </a>
         <a href="https://scholar.google.co.uk/citations?user=mvvgDvcAAAAJ&hl=en&oi=ao" class="btn btn-outline btn-sm">
           <i class="fa-solid fa-graduation-cap"></i> Google Scholar
-        </a>
-        <a href="#" class="btn btn-outline btn-sm">
-          <i class="fa-solid fa-file-lines"></i> CV
         </a>
       </div>
     </div>
@@ -114,11 +134,11 @@
   <div class="people-grid">
 
     <div class="person-card">
-      <div class="avatar-md grad-sky">PS</div>
+      <div class="avatar-md"><img src="assets/profile/ozgesincan.png" alt="Dr. Ozge Mercanoglu Sincan" /></div>
       <div class="person-name">Dr. Ozge Mercanoglu Sincan</div>
       <div class="person-role">Postdoctoral Researcher · 2022–present</div>
       <p class="person-research">
-        Gloss-Free SL Translation · Sign Spotting · LLMs for Sign Language
+         Computer vision and deep learning, with a particular focus on sign language research
       </p>
       <div style="display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:14px;">
         <span class="badge badge-sky" style="font-size:0.68rem;">PhD: Hacettepe University</span>
@@ -127,10 +147,10 @@
         <a href="mailto:ozge.mercanoglu.sincan@surrey.ac.uk" class="icon-btn" title="Email">
           <i class="fa-solid fa-envelope"></i>
         </a>
-        <a href="https://scholar.google.com/citations?user=mvvgDvcAAAAJ&hl=en&oi=ao" class="icon-btn" title="Google Scholar">
+        <a href="https://scholar.google.com/citations?user=nACVfjYAAAAJ&hl=en&oi=ao" class="icon-btn" title="Google Scholar">
           <i class="fa-solid fa-graduation-cap"></i>
         </a>
-        <a href="#" class="icon-btn" title="GitHub">
+        <a href="https://github.com/ozgemercanoglu" class="icon-btn" title="GitHub">
           <i class="fa-brands fa-github"></i>
         </a>
         <a href="#" class="icon-btn" title="Website">
@@ -140,11 +160,11 @@
     </div>
 
     <div class="person-card">
-      <div class="avatar-md grad-sky">PS</div>
+      <div class="avatar-md"><img src="assets/profile/anilbatra.jpg" alt="Dr. Anil Batra" /></div>
       <div class="person-name">Dr. Anil Batra</div>
       <div class="person-role">Postdoctoral Researcher · 2026–present</div>
       <p class="person-research">
-        Video Understanding · Action Recognition
+        Long-Context Modeling · Conditional Text Generation · Data & Memory Efficient AI · Representation Learning
       </p>
       <div style="display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:14px;">
         <span class="badge badge-sky" style="font-size:0.68rem;">PhD: University of Edinburgh</span>
@@ -153,13 +173,13 @@
         <a href="mailto:anil.batra@surrey.ac.uk" class="icon-btn" title="Email">
           <i class="fa-solid fa-envelope"></i>
         </a>
-        <a href="https://scholar.google.com/citations?user=mvvgDvcAAAAJ&hl=en&oi=ao" class="icon-btn" title="Google Scholar">
+        <a href="https://scholar.google.co.in/citations?hl=en&user=C9rsD2UAAAAJ" class="icon-btn" title="Google Scholar">
           <i class="fa-solid fa-graduation-cap"></i>
         </a>
-        <a href="#" class="icon-btn" title="GitHub">
+        <a href="https://github.com/anilbatra2185" class="icon-btn" title="GitHub">
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="#" class="icon-btn" title="Website">
+        <a href="https://anilbatra2185.github.io/" class="icon-btn" title="Website">
           <i class="fa-solid fa-globe"></i>
         </a>
       </div>
@@ -178,32 +198,6 @@
       </div>
       <div class="person-links">
         <a href="mailto:maxim.ivashechkin@surrey.ac.uk" class="icon-btn" title="Email">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-        <a href="https://scholar.google.com/citations?user=mvvgDvcAAAAJ&hl=en&oi=ao" class="icon-btn" title="Google Scholar">
-          <i class="fa-solid fa-graduation-cap"></i>
-        </a>
-        <a href="#" class="icon-btn" title="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="#" class="icon-btn" title="Website">
-          <i class="fa-solid fa-globe"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="person-card">
-      <div class="avatar-md grad-sky">PS</div>
-      <div class="person-name">Dr. Edward Fish</div>
-      <div class="person-role">Postdoctoral Researcher · 2025–present</div>
-      <p class="person-research">
-         3D Reconstruction · Gaussian Splatting
-      </p>
-      <div style="display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:14px;">
-        <span class="badge badge-sky" style="font-size:0.68rem;">PhD: University of Surrey</span>
-      </div>
-      <div class="person-links">
-        <a href="mailto:edward.fish@surrey.ac.uk" class="icon-btn" title="Email">
           <i class="fa-solid fa-envelope"></i>
         </a>
         <a href="https://scholar.google.com/citations?user=mvvgDvcAAAAJ&hl=en&oi=ao" class="icon-btn" title="Google Scholar">
@@ -438,6 +432,14 @@
   <!-- ---- Alumni ---- -->
   <div class="subsection-label" style="margin-top:56px;">Alumni</div>
   <div class="alumni-grid">
+
+    <div class="alumni-row">
+      <div class="avatar-sm grad-slate">EF</div>
+      <div class="alumni-info">
+        <div class="alumni-name">Edward Fish</div>
+        <div class="alumni-period">Postdoctoral Researcher</div>
+      </div>
+    </div>
 
     <div class="alumni-row">
       <div class="avatar-sm grad-slate">HW</div>
